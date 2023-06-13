@@ -21,5 +21,5 @@ EOF
 wget https://raw.githubusercontent.com/gogogoghost/grub-img/master/helper.sh
 chmod +x helper.sh
 
-# source ./helper.sh [grubImgVersion] [grubImgSize] [targetDevice]
-source ./helper.sh v1.2 64 /dev/sda
+# . ./helper.sh [grubImgVersion] [grubImgSize] [targetDevice]
+. ./helper.sh v1.2 64 /dev/sda
